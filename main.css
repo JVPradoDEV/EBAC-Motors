@@ -1,0 +1,285 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+* {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header>.container,
+footer>.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header,
+footer {
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+    padding-top: 12px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin-right: 16px;
+}
+
+nav a {
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(220, 222, 224);
+    text-decoration: underline;
+}
+
+nav {
+    display: none;
+    background-color: #b13b3b;
+    padding: 16px 0;
+}
+
+.menu-burger {
+    width: 32px;
+}
+
+.menu-burger span {
+    height: 4px;
+    width: 100%;
+    background-color: #cf0505;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.menu-burger:hover {
+    cursor: pointer;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja-img {
+    margin-right: 24px;
+    max-width: 400px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-veículos {
+    flex-wrap: wrap;
+}
+
+.lista-veículos li {
+    margin-bottom: 24px;
+    list-style: none;
+    max-width: 30%;
+}
+
+.lista-veículos li h3 {
+    margin: 16px 0;
+}
+
+.lista-veículos li img {
+    max-width: 100%;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+.lista-veículos li button {
+    border-radius: 6px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(209, 2, 2);
+    color: #fff;
+}
+
+.lista-veículos li button:hover {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(255, 56, 56);
+    color: #fff;
+}
+
+.price {
+    display: block;
+    margin: 16px 0;
+}
+
+.price del {
+    color: #3f3f3f;
+    font-size: 14px;
+
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+#contato button {
+    border-radius: 6px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(209, 2, 2);
+    color: #fff;
+}
+
+#contato form {
+    max-width: 360px;
+}
+
+#contato form button {
+    max-width: 120px;
+}
+
+#contato button:hover {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(255, 56, 56);
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
